@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", "Big Shoulders Display", sans-serif;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1200px;
+  height: 500px;
+}
+
+.grid-col {
+  padding: 50px;
+}
+
+.grid-col-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.grid-col-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.grid-col-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.icon {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display";
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 20px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  padding-right: 74px;
+  margin-bottom: 75px;
+}
+
+button {
+  width: 160px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
